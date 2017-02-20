@@ -13,44 +13,55 @@ body {
   background-color: #EFEFEF
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.container {
   width: 100%;
-  height: 122px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  height: 129px;
   background-color: #2B2B2B;
 }
 
 .header-icons-right {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 12px;
+  right: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+img {
+  cursor: pointer;
+}
+
+.admin-img{
+  border-style: solid;
+  border-radius: 20px;
+  border-color: white;
+  border-width: 2px;
+  padding: 4px;
+  width: 29px;
 }
 
 .admin {
   padding: 0 10px 0 10px;
   color: #2998D1;
+  cursor: pointer;
 }
 
 .header-icons-left {
   position: absolute;
   top: 65px;
-  left: 20px;
+  left: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.win {
-  position: absolute;
-    top: 33px;
-    right: 17px;
-    color: white;
-    font-size: 40px;
 }
 
 .link-1 {
@@ -63,6 +74,14 @@ header {
   color: #2B2B2B; 
 }
 
+.win {
+  position: absolute;
+  top: 33px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+}
+
 .title-section {
   width: 97%;
   height: 79px;
@@ -71,13 +90,20 @@ header {
   color: #4C4C4C;
 }
 
-.container {
-  width: 98%;
+h1 {
+  font-size: 2em;
+  width: 91%;
+  align-self: center;
+  margin: 0.67em 4px;
+}
+
+.box-container {
+  width: 100%;
   height: 100px;
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .box {
@@ -89,15 +115,44 @@ header {
   flex-direction: column;
 }
 
-.redo {
-  width: 45px;
-  margin: 10px 0 0 10px;
-  background-color: #4D4D4D;
-  border-radius: 23px;
+.view {
+  position: relative;
+  right: -12px;
 }
 
-.name-object {
-  margin-left: 12px;
+.views {
+  position: absolute;
+  right: 31px;
+  font-size: 10px;
+  color: #FFF;
+  margin-top: 15px;
+}
+
+.number {
+  color: white;
+  position: absolute;
+  font-size: 27px;
+  right: 30px;
+}
+
+.icons {
+  height: 33.333%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(97, 97, 97, 0.67);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.redo {
+  width: 57px;
+  margin: 10px 0 0 10px;
+  background-color: #4D4D4D;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .name {
@@ -122,7 +177,7 @@ header {
 }
 
 a {
-  font-size: 10px;
+  font-size: 12px;
   margin: 5px 5px;
   text-decoration: none;
   color: grey;
@@ -132,42 +187,114 @@ a {
   width: 91%;
   align-self: center;}
 
-h3 {
-  font-size: 12px;
-  margin: 20px 12px -10px 0;
-  color: #7d7d7d;
-}
+  h3 {
+    font-size: 12px;
+    margin: 20px 12px -10px 0;
+    color: #7d7d7d;
+  }
 
-.num-attachments {
-  color: #3EBCFC;
-  font-size: 30px;
-  margin-top: 10px;
-}
+  .num-attachments {
+    color: #3EBCFC;
+    font-size: 30px;
+    margin-top: 10px;
+  }
 
-.icons {
-  height: 33.333%;
+
+
+/* Cards */
+
+
+.card-1 {
   background-image: url(images/professional-headshot-1.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-blend-mode: darken;
-  background-color: rgba(128, 128, 128, 0.67);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
 }
 
-.views {
-  position: absolute;
-  right: 31px;
-  font-size: 10px;
-  color: #FFF;
-  margin-top: 15px;
+.card-2 {
+  background-image: url(images/professional-headshot-2.jpg);
 }
 
-.number {
-  color: white;
-  position: absolute;
-  font-size: 27px;
-  right: 30px;
+.card-3 {
+  background-image: url(images/professional-headshot-3.jpg);
+}
+
+.card-4 {
+  background-image: url(images/professional-headshot-4.jpg);
+}
+
+.card-5 {
+  background-image: url(images/professional-headshot-5.jpg);
+}
+
+.card-6 {
+  background-image: url(images/professional-headshot-6.jpg);
+}
+
+.card-7 {
+  background-image: url(images/professional-headshot-7.jpg);
+}
+
+.card-8 {
+  background-image: url(images/professional-headshot-8.jpg);
+}
+
+
+
+/* Media Queries */
+
+
+@media screen and (min-width: 320px){
+
+  .title-section {
+    text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 400px){
+
+  .box {
+    width: 320px;
+    }
+
+@media screen and (min-width: 550px){
+
+  .box {
+    width: 48%;
+  }
+
+  .title-section {
+    text-align: left;
+  }
+
+@media screen and (min-width: 780px){
+
+  .box {
+    width: 31%;
+  }
+
+  .link-1 {
+    width: 90px;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+
+  .link-2 {
+    width: 139px;
+    color: #adadad;
+    margin-left: 12px;
+  }
+
+  .profile {
+    margin-left: -29px;
+  }
+
+  .header-icons-left {
+    top: 74px;
+  }
+
+@media screen and (min-width: 880px){
+
+  .box {
+    width: 23%;
+  }
+
 }
