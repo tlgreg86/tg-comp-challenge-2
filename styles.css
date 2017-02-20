@@ -41,12 +41,7 @@ img {
 }
 
 .admin-img{
-  border-style: solid;
-  border-radius: 20px;
-  border-color: white;
-  border-width: 2px;
-  padding: 4px;
-  width: 29px;
+  width: 24px;
 }
 
 .admin {
