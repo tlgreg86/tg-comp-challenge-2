@@ -118,7 +118,7 @@ h1 {
 .views {
   position: absolute;
   right: 31px;
-  font-size: 10px;
+  font-size: 14px;
   color: #FFF;
   margin-top: 15px;
 }
@@ -126,8 +126,8 @@ h1 {
 .number {
   color: white;
   position: absolute;
-  font-size: 27px;
-  right: 30px;
+  font-size: 32px;
+  right: 34px;
 }
 
 .icons {
