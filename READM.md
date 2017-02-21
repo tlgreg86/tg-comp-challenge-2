@@ -6,15 +6,15 @@ This project is the second of three static comp challenges that require us to bu
 In my version of the comp, I decided to stick closely to the original comp. I used images similar to the original comp and preceded to base my color palette off of it as well. From there I used flexbox to style my webpage.
 
 ### Original Comp:
-![Original comp image](tg-comp-challenge-2/images/original-comp.png)
+![Original comp image](https://github.com/tlgreg86/tg-comp-challenge-2/blob/master/images/original-comp.png)
 
 ### My Comp:
 
 #### Desktop View:
-![Desktop size](tg-comp-challenge-2/images/desktop.png)
+![Desktop size](https://github.com/tlgreg86/tg-comp-challenge-2/blob/master/images/desktop.png)
 
 #### Tablet View:
-![Tablet size image](tg-comp-challenge-2/images/tablet.png)
+![Tablet size image](https://github.com/tlgreg86/tg-comp-challenge-2/blob/master/images/tablet.png)
 
 #### Mobile View:
-![Phone size image](tg-comp-challenge-2/images/mobile.png)
+![Phone size image](https://github.com/tlgreg86/tg-comp-challenge-2/blob/master/images/mobile.png)
